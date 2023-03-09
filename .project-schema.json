@@ -1,0 +1,1649 @@
+{
+  "version": "1.0.0",
+  "componentsMap": [
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Radio",
+      "main": "",
+      "destructuring": true,
+      "subName": "Group",
+      "componentName": "Radio.Group"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Form",
+      "main": "",
+      "destructuring": true,
+      "subName": "Item",
+      "componentName": "Form.Item"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Input",
+      "main": "",
+      "destructuring": true,
+      "componentName": "Input"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Form",
+      "main": "",
+      "destructuring": true,
+      "componentName": "Form"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Modal",
+      "main": "",
+      "destructuring": true,
+      "componentName": "Modal"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Row",
+      "main": "",
+      "destructuring": true,
+      "componentName": "Row"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Typography",
+      "main": "",
+      "destructuring": true,
+      "subName": "Text",
+      "componentName": "Typography.Text"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Progress",
+      "main": "",
+      "destructuring": true,
+      "componentName": "Progress"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Tooltip",
+      "main": "",
+      "destructuring": true,
+      "componentName": "Tooltip"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Col",
+      "main": "",
+      "destructuring": true,
+      "componentName": "Col"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Button",
+      "main": "",
+      "destructuring": true,
+      "componentName": "Button"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Image",
+      "main": "",
+      "destructuring": true,
+      "componentName": "Image"
+    },
+    {
+      "package": "@alilc/antd-lowcode-materials",
+      "version": "1.1.1",
+      "exportName": "Icon",
+      "main": "",
+      "destructuring": true,
+      "componentName": "Icon"
+    }
+  ],
+  "componentsTree": [
+    {
+      "componentName": "Page",
+      "id": "node_dockcviv8fo1",
+      "props": {
+        "ref": "outerView",
+        "style": {
+          "height": "100%"
+        }
+      },
+      "fileName": "/",
+      "dataSource": {
+        "list": [
+          {
+            "type": "fetch",
+            "isInit": true,
+            "options": {
+              "params": {},
+              "method": "GET",
+              "isCors": true,
+              "timeout": 5000,
+              "headers": {},
+              "uri": "mock/info.json"
+            },
+            "id": "info",
+            "shouldFetch": {
+              "type": "JSFunction",
+              "value": "function() { \n  console.log('should fetch.....');\n  return true; \n}"
+            }
+          }
+        ]
+      },
+      "state": {
+        "text": {
+          "type": "JSExpression",
+          "value": "\"outer\""
+        },
+        "isShowDialog": {
+          "type": "JSExpression",
+          "value": "false"
+        },
+        "list": {
+          "type": "JSExpression",
+          "value": "[{\n  id: 1,\n  name: '云平台_1',\n  type: 'azure',\n  createTime: '2022-10-11',\n  account: 'admin',\n  password: 'admin'\n}, {\n  id: 2,\n  name: '云平台_2',\n  type: 'aliyun',\n  createTime: '2022-10-11',\n  account: 'admin',\n  password: 'admin'\n}, {\n  id: 3,\n  name: '云平台_3',\n  type: 'aws',\n  createTime: '2022-10-11',\n  account: 'admin',\n  password: 'admin'\n}, {\n  id: 4,\n  name: '云平台_4',\n  type: 'aliyun',\n  createTime: '2022-10-11',\n  account: 'admin',\n  password: 'admin'\n}, {\n  id: 5,\n  name: '云平台_5',\n  type: 'aws',\n  createTime: '2022-10-11',\n  account: 'admin',\n  password: 'admin'\n}]"
+        },
+        "platformImg": {
+          "type": "JSExpression",
+          "value": "{\n  azure: 'https://s1.ax1x.com/2023/02/15/pS7C8Nq.png',\n  aliyun: 'https://s1.ax1x.com/2023/02/15/pS7CFHA.png',\n  aws: 'https://s1.ax1x.com/2023/02/15/pS7ClHs.png'\n}"
+        },
+        "selectedItem": {
+          "type": "JSExpression",
+          "value": "{\n  id: null,\n  name: '',\n  type: 'azure',\n  createTime: '',\n  account: '',\n  password: ''\n}"
+        },
+        "dialogType": {
+          "type": "JSExpression",
+          "value": "1"
+        },
+        "newId": {
+          "type": "JSExpression",
+          "value": "4"
+        },
+        "deleteId": {
+          "type": "JSExpression",
+          "value": "''"
+        },
+        "new_visible": {
+          "type": "JSExpression",
+          "value": "''"
+        },
+        "delete_visible": {
+          "type": "JSExpression",
+          "value": "''"
+        },
+        "radio": {
+          "type": "JSExpression",
+          "value": "[{\n  text: 'azure',\n  value: 'azure'\n}, {\n  text: 'aliyun',\n  value: 'aliyun'\n}, {\n  text: 'aws',\n  value: 'aws'\n}]"
+        }
+      },
+      "css": "body {\n  font-size: 12px;\n}\n\n.button {\n  width: 100px;\n  color: #ff00ff\n}",
+      "lifeCycles": {
+        "componentDidMount": {
+          "type": "JSFunction",
+          "value": "function componentDidMount() {\n  console.log('did mount');\n}",
+          "source": "function componentDidMount() {\n  console.log('did mount');\n}"
+        },
+        "componentWillUnmount": {
+          "type": "JSFunction",
+          "value": "function componentWillUnmount() {\n  console.log('will unmount');\n}",
+          "source": "function componentWillUnmount() {\n  console.log('will unmount');\n}"
+        }
+      },
+      "methods": {
+        "testFunc": {
+          "type": "JSFunction",
+          "value": "function testFunc() {\n  console.log('test func');\n}",
+          "source": "function testFunc() {\n  console.log('test func');\n}"
+        },
+        "onClick": {
+          "type": "JSFunction",
+          "value": "function onClick() {\n  this.setState({\n    isShowDialog: true\n  });\n}",
+          "source": "function onClick() {\n  this.setState({\n    isShowDialog: true\n  });\n}"
+        },
+        "closeDialog": {
+          "type": "JSFunction",
+          "value": "function closeDialog() {\n  this.setState({\n    isShowDialog: false\n  });\n}",
+          "source": "function closeDialog() {\n  this.setState({\n    isShowDialog: false\n  });\n}"
+        },
+        "onClick_new": {
+          "type": "JSFunction",
+          "value": "function onClick_new(event) {\n  // 点击按钮时的回调\n  this.setState({\n    new_visible: 1,\n    dialogType: 1\n  });\n}",
+          "source": "function onClick_new(event) {\n  // 点击按钮时的回调\n  this.setState({\n    new_visible: 1,\n    dialogType: 1\n  });\n}"
+        },
+        "onCancel_new": {
+          "type": "JSFunction",
+          "value": "function onCancel_new() {\n  // 点击遮罩层或右上角叉或取消按钮的回调\n  this.setState({\n    new_visible: ''\n  });\n}",
+          "source": "function onCancel_new() {\n  // 点击遮罩层或右上角叉或取消按钮的回调\n  this.setState({\n    new_visible: ''\n  });\n}"
+        },
+        "afterClose": {
+          "type": "JSFunction",
+          "value": "function afterClose() {\n  this.setState({\n    selectedItem: {\n      name: '',\n      type: 'azure',\n      createTime: '',\n      account: '',\n      password: ''\n    }\n  });\n}",
+          "source": "function afterClose() {\n  this.setState({\n    selectedItem: {\n      name: '',\n      type: 'azure',\n      createTime: '',\n      account: '',\n      password: ''\n    }\n  });\n}"
+        },
+        "getStatus": {
+          "type": "JSFunction",
+          "value": "function getStatus() {\n  return this.state.dialogType === 3 ? 1 : '';\n}",
+          "source": "function getStatus() {\n  return this.state.dialogType === 3 ? 1 : '';\n}"
+        },
+        "onOk": {
+          "type": "JSFunction",
+          "value": "function onOk() {\n  // 点击确定回调\n  const {\n    dialogType,\n    selectedItem,\n    list\n  } = this.state;\n  if (dialogType === 3) {\n    this.setState({\n      delete_visible: ''\n    });\n    return;\n  }\n  const {\n    type,\n    name,\n    password,\n    account\n  } = selectedItem;\n  if (type !== '' && name !== '' && password !== '' && account !== '') {\n    // 赋值时间\n    const currentDate = new Date();\n    const year = currentDate.getFullYear();\n    const month = String(currentDate.getMonth() + 1).padStart(2, '0');\n    const day = String(currentDate.getDate()).padStart(2, '0');\n    const dateString = `${year}-${month}-${day}`;\n    // 赋值id\n    const newId = Number(new Date());\n    // console.log('selectedItem', selectedItem);\n    // console.log('list', list); \n    // 向list塞数据\n    this.setState({\n      // list: [...list, { ...selectedItem, createTime: dateString, id: newId }],\n      list: list.concat({\n        ...selectedItem,\n        createTime: dateString,\n        id: newId\n      })\n    });\n    // console.log(list, 'list');\n    // console.log(this.state.list, 'this.state.list');\n    this.setState({\n      new_visible: ''\n    });\n  }\n}",
+          "source": "function onOk() {\n  // 点击确定回调\n  const {\n    dialogType,\n    selectedItem,\n    list\n  } = this.state;\n  if (dialogType === 3) {\n    this.setState({\n      delete_visible: ''\n    });\n    return;\n  }\n  const {\n    type,\n    name,\n    password,\n    account\n  } = selectedItem;\n  if (type !== '' && name !== '' && password !== '' && account !== '') {\n    // 赋值时间\n    const currentDate = new Date();\n    const year = currentDate.getFullYear();\n    const month = String(currentDate.getMonth() + 1).padStart(2, '0');\n    const day = String(currentDate.getDate()).padStart(2, '0');\n    const dateString = `${year}-${month}-${day}`;\n    // 赋值id\n    const newId = Number(new Date());\n    // console.log('selectedItem', selectedItem);\n    // console.log('list', list); \n    // 向list塞数据\n    this.setState({\n      // list: [...list, { ...selectedItem, createTime: dateString, id: newId }],\n      list: list.concat({\n        ...selectedItem,\n        createTime: dateString,\n        id: newId\n      })\n    });\n    // console.log(list, 'list');\n    // console.log(this.state.list, 'this.state.list');\n    this.setState({\n      new_visible: ''\n    });\n  }\n}"
+        },
+        "typeonChange": {
+          "type": "JSFunction",
+          "value": "function typeonChange(value) {\n  // console.log(value.target.value)\n  // this.setState({\n  //   selectedItem: { ...this.state.selectedItem, type: value }\n  // })\n}",
+          "source": "function typeonChange(value) {\n  // console.log(value.target.value)\n  // this.setState({\n  //   selectedItem: { ...this.state.selectedItem, type: value }\n  // })\n}"
+        },
+        "nameChange": {
+          "type": "JSFunction",
+          "value": "function nameChange(value) {\n  // console.log(value)\n  // this.setState({\n  //   selectedItem: { ...this.state.selectedItem, name: value }\n  // })\n}",
+          "source": "function nameChange(value) {\n  // console.log(value)\n  // this.setState({\n  //   selectedItem: { ...this.state.selectedItem, name: value }\n  // })\n}"
+        },
+        "accountChange": {
+          "type": "JSFunction",
+          "value": "function accountChange(value) {\n  // console.log(value)\n  // this.setState({\n  //   selectedItem: { ...this.state.selectedItem, account: value }\n  // })\n}",
+          "source": "function accountChange(value) {\n  // console.log(value)\n  // this.setState({\n  //   selectedItem: { ...this.state.selectedItem, account: value }\n  // })\n}"
+        },
+        "passwordChange": {
+          "type": "JSFunction",
+          "value": "function passwordChange(value) {\n  // console.log(value)\n  // this.setState({\n  //   selectedItem: { ...this.state.selectedItem, password: value }\n  // })\n}",
+          "source": "function passwordChange(value) {\n  // console.log(value)\n  // this.setState({\n  //   selectedItem: { ...this.state.selectedItem, password: value }\n  // })\n}"
+        },
+        "onValuesChange": {
+          "type": "JSFunction",
+          "value": "function onValuesChange(changedValues, allValues) {\n  // 字段值更新时触发回调事件\n  // console.log('onValuesChange', changedValues, allValues);\n  this.setState({\n    selectedItem: {\n      ...this.state.selectedItem,\n      ...changedValues\n    }\n  });\n}",
+          "source": "function onValuesChange(changedValues, allValues) {\n  // 字段值更新时触发回调事件\n  // console.log('onValuesChange', changedValues, allValues);\n  this.setState({\n    selectedItem: {\n      ...this.state.selectedItem,\n      ...changedValues\n    }\n  });\n}"
+        },
+        "onClick_delete": {
+          "type": "JSFunction",
+          "value": "function onClick_delete(e) {\n  console.log(e);\n  console.log(this.item, 'item');\n  this.setState({\n    delete_visible: 1\n  });\n}",
+          "source": "function onClick_delete(e) {\n  console.log(e);\n  console.log(this.item, 'item');\n  this.setState({\n    delete_visible: 1\n  });\n}"
+        },
+        "onClick_particulars": {
+          "type": "JSFunction",
+          "value": "function onClick_particulars(e) {\n  console.log(e);\n  console.log(this.item, 'item');\n  this.setState({\n    dialogType: 3,\n    new_visible: 1\n  });\n}",
+          "source": "function onClick_particulars(e) {\n  console.log(e);\n  console.log(this.item, 'item');\n  this.setState({\n    dialogType: 3,\n    new_visible: 1\n  });\n}"
+        },
+        "onClick_edit": {
+          "type": "JSFunction",
+          "value": "function onClick_edit(e) {\n  console.log(e);\n  console.log(this.item, 'item');\n  this.setState({\n    dialogType: 2,\n    new_visible: 1\n  });\n}",
+          "source": "function onClick_edit(e) {\n  console.log(e);\n  console.log(this.item, 'item');\n  this.setState({\n    dialogType: 2,\n    new_visible: 1\n  });\n}"
+        },
+        "onCancel_delete": {
+          "type": "JSFunction",
+          "value": "function onCancel_delete() {\n  // 点击遮罩层或右上角叉或取消按钮的回调\n  this.setState({\n    delete_visible: ''\n  });\n}",
+          "source": "function onCancel_delete() {\n  // 点击遮罩层或右上角叉或取消按钮的回调\n  this.setState({\n    delete_visible: ''\n  });\n}"
+        }
+      },
+      "originCode": "class LowcodeComponent extends Component {\n  state = {\n    \"text\": \"outer\",\n    \"isShowDialog\": false,\n    \"list\": [\n      {\n        id: 1,\n        name: '云平台_1',\n        type: 'azure',\n        createTime: '2022-10-11',\n        account: 'admin',\n        password: 'admin',\n      },\n      {\n        id: 2,\n        name: '云平台_2',\n        type: 'aliyun',\n        createTime: '2022-10-11',\n        account: 'admin',\n        password: 'admin',\n      },\n      {\n        id: 3,\n        name: '云平台_3',\n        type: 'aws',\n        createTime: '2022-10-11',\n        account: 'admin',\n        password: 'admin',\n      },\n      {\n        id: 4,\n        name: '云平台_4',\n        type: 'aliyun',\n        createTime: '2022-10-11',\n        account: 'admin',\n        password: 'admin',\n      },\n      {\n        id: 5,\n        name: '云平台_5',\n        type: 'aws',\n        createTime: '2022-10-11',\n        account: 'admin',\n        password: 'admin',\n      },\n    ],\n    \"platformImg\": {\n      azure: 'https://s1.ax1x.com/2023/02/15/pS7C8Nq.png',\n      aliyun: 'https://s1.ax1x.com/2023/02/15/pS7CFHA.png',\n      aws: 'https://s1.ax1x.com/2023/02/15/pS7ClHs.png',\n    },\n    \"selectedItem\": {\n      id: null,\n      name: '',\n      type: 'azure',\n      createTime: '',\n      account: '',\n      password: '',\n    },\n    \"dialogType\": 1,\n    \"newId\": 4,\n    \"deleteId\": '',\n    \"new_visible\": '',\n    \"delete_visible\": '',\n    \"radio\": [\n      {\n        text: 'azure',\n        value: 'azure',\n      },\n      {\n        text: 'aliyun',\n        value: 'aliyun',\n      },\n      {\n        text: 'aws',\n        value: 'aws',\n      },\n    ],\n  }\n\n\n  componentDidMount() {\n    console.log('did mount');\n  }\n  componentWillUnmount() {\n    console.log('will unmount');\n  }\n  testFunc() {\n    console.log('test func');\n  }\n  onClick() {\n    this.setState({\n      isShowDialog: true\n    })\n  }\n  closeDialog() {\n    this.setState({\n      isShowDialog: false\n    })\n  }\n\n\n\n\n  // 新建\n  onClick_new(event) {\n    // 点击按钮时的回调\n    this.setState({\n      new_visible: 1,\n      dialogType: 1\n    })\n  }\n\n  // 关闭新建弹窗\n  onCancel_new() {\n    // 点击遮罩层或右上角叉或取消按钮的回调\n    this.setState({\n      new_visible: ''\n    })\n  }\n\n  // 关闭弹窗，制空数据\n  afterClose() {\n    this.setState({\n      selectedItem: {\n        name: '',\n        type: 'azure',\n        createTime: '',\n        account: '',\n        password: ''\n      }\n    })\n  }\n\n  // 禁用\n  getStatus() {\n    return this.state.dialogType === 3 ? 1 : '';\n  }\n\n  // 新建确定\n  onOk() {\n    // 点击确定回调\n    const { dialogType, selectedItem, list } = this.state;\n    if (dialogType === 3) {\n      this.setState({\n        delete_visible: '',\n      });\n      return;\n    }\n    const { type, name, password, account } = selectedItem;\n    if (type !== '' && name !== '' && password !== '' && account !== '') {\n      // 赋值时间\n      const currentDate = new Date();\n      const year = currentDate.getFullYear();\n      const month = String(currentDate.getMonth() + 1).padStart(2, '0');\n      const day = String(currentDate.getDate()).padStart(2, '0');\n      const dateString = `${year}-${month}-${day}`;\n      // 赋值id\n      const newId = Number(new Date());\n      // console.log('selectedItem', selectedItem);\n      // console.log('list', list); \n      // 向list塞数据\n      this.setState({\n        // list: [...list, { ...selectedItem, createTime: dateString, id: newId }],\n        list: list.concat({\n          ...selectedItem,\n          createTime: dateString,\n          id: newId,\n        }),\n      });\n      // console.log(list, 'list');\n      // console.log(this.state.list, 'this.state.list');\n      this.setState({\n        new_visible: '',\n      });\n    }\n  }\n\n  // 云平台表单\n  typeonChange(value) {\n    // console.log(value.target.value)\n    // this.setState({\n    //   selectedItem: { ...this.state.selectedItem, type: value }\n    // })\n  }\n\n  // 账号名称表单\n  nameChange(value) {\n    // console.log(value)\n    // this.setState({\n    //   selectedItem: { ...this.state.selectedItem, name: value }\n    // })\n  }\n\n  // 账号表单\n  accountChange(value) {\n    // console.log(value)\n    // this.setState({\n    //   selectedItem: { ...this.state.selectedItem, account: value }\n    // })\n  }\n\n  // 密码表单\n  passwordChange(value) {\n    // console.log(value)\n    // this.setState({\n    //   selectedItem: { ...this.state.selectedItem, password: value }\n    // })\n  }\n\n  // 表单容器\n  onValuesChange(changedValues, allValues) {\n    // 字段值更新时触发回调事件\n    // console.log('onValuesChange', changedValues, allValues);\n    this.setState({\n      selectedItem: { ...this.state.selectedItem, ...changedValues },\n    });\n  }\n\n  // 点击删除图标\n  onClick_delete(e) {\n    console.log(e);\n    console.log(this.item, 'item');\n    this.setState({\n      delete_visible: 1,\n    });\n  }\n\n  // 点击查看图标\n  onClick_particulars(e) {\n    console.log(e);\n    console.log(this.item, 'item');\n    this.setState({\n      dialogType: 3,\n      new_visible: 1,\n    });\n  }\n\n  // 点击编辑图标\n  onClick_edit(e) {\n    console.log(e);\n    console.log(this.item, 'item');\n    this.setState({\n      dialogType: 2,\n      new_visible: 1,\n    });\n  }\n\n  // 取消关闭删除弹窗删除\n  onCancel_delete() {\n    // 点击遮罩层或右上角叉或取消按钮的回调\n    this.setState({\n      delete_visible: '',\n    });\n  }\n}",
+      "hidden": false,
+      "title": "",
+      "isLocked": false,
+      "condition": true,
+      "conditionGroup": "",
+      "children": [
+        {
+          "componentName": "Modal",
+          "id": "node_oclexysjwh1",
+          "props": {
+            "title": {
+              "type": "JSExpression",
+              "value": "{ 1: '新建', 2: '编辑', 3: '查看' } [this.state.dialogType]"
+            },
+            "okText": "确认",
+            "cancelText": "取消",
+            "visible": {
+              "type": "JSExpression",
+              "value": "this.state.new_visible",
+              "mock": true
+            },
+            "destroyOnClose": true,
+            "centered": false,
+            "closable": true,
+            "confirmLoading": false,
+            "forceRender": false,
+            "keyboard": true,
+            "mask": true,
+            "maskClosable": true,
+            "bodyStyle": {},
+            "maskStyle": {},
+            "okButtonProps": {
+              "disabled": false
+            },
+            "__events": {
+              "eventDataList": [
+                {
+                  "type": "componentEvent",
+                  "name": "onCancel",
+                  "relatedEventName": "onCancel_new"
+                },
+                {
+                  "type": "componentEvent",
+                  "name": "afterClose",
+                  "relatedEventName": "afterClose"
+                },
+                {
+                  "type": "componentEvent",
+                  "name": "onOk",
+                  "relatedEventName": "onOk"
+                }
+              ],
+              "eventList": [
+                {
+                  "name": "afterClose",
+                  "templete": "onCancel(${extParams}){\n// 完全关闭后的回调\nconsole.log('afterClose');}",
+                  "disabled": true
+                },
+                {
+                  "name": "onCancel",
+                  "template": "onCancel(${extParams}){\n// 点击遮罩层或右上角叉或取消按钮的回调\nconsole.log('onCancel');}",
+                  "disabled": true
+                },
+                {
+                  "name": "onOk",
+                  "template": "onOk(${extParams}){\n// 点击确定回调\nconsole.log('onOk');}",
+                  "disabled": true
+                }
+              ]
+            },
+            "onCancel": {
+              "type": "JSFunction",
+              "value": "function(){return this.onCancel_new.apply(this,Array.prototype.slice.call(arguments).concat([])) }"
+            },
+            "afterClose": {
+              "type": "JSFunction",
+              "value": "function(){return this.afterClose.apply(this,Array.prototype.slice.call(arguments).concat([])) }"
+            },
+            "_unsafe_MixedSetter_title_select": "VariableSetter",
+            "onOk": {
+              "type": "JSFunction",
+              "value": "function(){return this.onOk.apply(this,Array.prototype.slice.call(arguments).concat([])) }"
+            }
+          },
+          "hidden": true,
+          "title": "",
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": "",
+          "children": [
+            {
+              "componentName": "Form",
+              "id": "node_oclexysjwh2",
+              "props": {
+                "labelCol": {
+                  "span": 6
+                },
+                "wrapperCol": {
+                  "span": 14
+                },
+                "onValuesChange": {
+                  "type": "JSFunction",
+                  "value": "function(){return this.onValuesChange.apply(this,Array.prototype.slice.call(arguments).concat([])) }"
+                },
+                "name": "basic",
+                "ref": "form_exc",
+                "colon": true,
+                "hideRequiredMark": false,
+                "preserve": true,
+                "scrollToFirstError": true,
+                "validateMessages": {
+                  "required": "'${name}' 不能为空"
+                },
+                "__events": {
+                  "eventDataList": [
+                    {
+                      "type": "componentEvent",
+                      "name": "onValuesChange",
+                      "relatedEventName": "onValuesChange"
+                    }
+                  ],
+                  "eventList": [
+                    {
+                      "name": "onFinish",
+                      "template": "onFinish(values,${extParams}){\n// 提交表单且数据验证成功后回调事件\nconsole.log('onFinish',values);}",
+                      "disabled": false
+                    },
+                    {
+                      "name": "onFinishFailed",
+                      "template": "onFinishFailed({values,errorFields,outOfDate},${extParams}){\n// 提交表单且数据验证失败后回调事件\nconsole.log('onFinishFailed',values, errorFields, outOfDate);}",
+                      "disabled": false
+                    },
+                    {
+                      "name": "onFieldsChange",
+                      "template": "onFieldsChange(changedFields,allFields,${extParams}){\n// 字段更新时触发回调事件\nconsole.log('onFieldsChange',changedFields,allFields);}",
+                      "disabled": false
+                    },
+                    {
+                      "name": "onValuesChange",
+                      "template": "onValuesChange(changedValues,allValues,${extParams}){\n// 字段值更新时触发回调事件\nconsole.log('onValuesChange',changedValues,allValues);}",
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "hidden": false,
+              "title": "",
+              "isLocked": false,
+              "condition": true,
+              "conditionGroup": "",
+              "children": [
+                {
+                  "componentName": "Form.Item",
+                  "id": "node_oclexysjwh3",
+                  "props": {
+                    "label": "云平台",
+                    "labelAlign": "right",
+                    "colon": true,
+                    "required": true,
+                    "noStyle": false,
+                    "valuePropName": "value",
+                    "name": "type",
+                    "requiredobj": {
+                      "required": true,
+                      "message": "必填"
+                    },
+                    "typeobj": {
+                      "type": "",
+                      "message": ""
+                    },
+                    "lenobj": {
+                      "max": "",
+                      "min": "",
+                      "message": ""
+                    },
+                    "patternobj": {
+                      "pattern": "",
+                      "message": ""
+                    }
+                  },
+                  "hidden": false,
+                  "title": "",
+                  "isLocked": false,
+                  "condition": true,
+                  "conditionGroup": "",
+                  "children": [
+                    {
+                      "componentName": "Radio.Group",
+                      "id": "node_oclexysjwhy",
+                      "props": {
+                        "options": [
+                          {
+                            "label": "azure",
+                            "value": "azure"
+                          },
+                          {
+                            "label": "aliyun",
+                            "value": "aliyun"
+                          },
+                          {
+                            "label": "aws",
+                            "value": "aws"
+                          }
+                        ],
+                        "disabled": {
+                          "type": "JSExpression",
+                          "value": "this.getStatus()",
+                          "mock": false
+                        },
+                        "size": "middle",
+                        "buttonStyle": "outline",
+                        "defaultValue": {
+                          "type": "JSExpression",
+                          "value": "this.state.selectedItem.type"
+                        },
+                        "__events": {
+                          "eventDataList": [],
+                          "eventList": [
+                            {
+                              "name": "onChange",
+                              "template": "onChange(event,${extParams}){\n// 选项变化时的回调函数\nconsole.log('onChange',event);}",
+                              "disabled": true
+                            }
+                          ]
+                        }
+                      },
+                      "hidden": false,
+                      "title": "",
+                      "isLocked": false,
+                      "condition": true,
+                      "conditionGroup": ""
+                    }
+                  ]
+                },
+                {
+                  "componentName": "Form.Item",
+                  "id": "node_oclexysjwhb",
+                  "props": {
+                    "label": "账号名称",
+                    "name": "name",
+                    "labelAlign": "right",
+                    "colon": true,
+                    "required": true,
+                    "noStyle": false,
+                    "valuePropName": "value",
+                    "requiredobj": {
+                      "required": "",
+                      "message": ""
+                    },
+                    "typeobj": {
+                      "type": "",
+                      "message": ""
+                    },
+                    "lenobj": {
+                      "max": "",
+                      "min": "",
+                      "message": ""
+                    },
+                    "patternobj": {
+                      "pattern": "",
+                      "message": ""
+                    }
+                  },
+                  "hidden": false,
+                  "title": "",
+                  "isLocked": false,
+                  "condition": true,
+                  "conditionGroup": "",
+                  "children": [
+                    {
+                      "componentName": "Input",
+                      "id": "node_oclexysjwh4",
+                      "props": {
+                        "placeholder": "请输入",
+                        "bordered": true,
+                        "disabled": {
+                          "type": "JSExpression",
+                          "value": "this.getStatus()",
+                          "mock": false
+                        },
+                        "size": "middle",
+                        "defaultValue": {
+                          "type": "JSExpression",
+                          "value": "this.state.selectedItem.name"
+                        },
+                        "__events": {
+                          "eventDataList": [],
+                          "eventList": [
+                            {
+                              "name": "onChange",
+                              "template": "onChange(event,${extParams}){\n// 输入框内容变化时的回调\nconsole.log('onChange',event);}",
+                              "disabled": true
+                            },
+                            {
+                              "name": "onPressEnter",
+                              "template": "onPressEnter(event,${extParams}){\n// 按下回车的回调\nconsole.log('onPressEnter',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onFocus",
+                              "template": "onFocus(event,${extParams}){\n// 获取焦点回调\nconsole.log('onFocus',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onKeyDown",
+                              "template": "onKeyDown(event,${extParams}){\n// 按键按下时的回调\nconsole.log('onKeyDown',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onKeyPress",
+                              "template": "onKeyPress(event,${extParams}){\n// 按键按下后的回调\nconsole.log('onKeyPress',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onKeyUp",
+                              "template": "onKeyUp(event,${extParams}){\n// 按键释放回调\nconsole.log('onKeyUp',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onBlur",
+                              "template": "onBlur(event,${extParams}){\n// 按键释放回调\nconsole.log('onBlur',event);}",
+                              "disabled": false
+                            }
+                          ]
+                        }
+                      },
+                      "hidden": false,
+                      "title": "",
+                      "isLocked": false,
+                      "condition": true,
+                      "conditionGroup": ""
+                    }
+                  ]
+                },
+                {
+                  "componentName": "Form.Item",
+                  "id": "node_oclexysjwhd",
+                  "props": {
+                    "label": "账号",
+                    "labelAlign": "right",
+                    "colon": true,
+                    "required": true,
+                    "noStyle": false,
+                    "valuePropName": "value",
+                    "requiredobj": {
+                      "required": "",
+                      "message": ""
+                    },
+                    "typeobj": {
+                      "type": "",
+                      "message": ""
+                    },
+                    "lenobj": {
+                      "max": "",
+                      "min": "",
+                      "message": ""
+                    },
+                    "patternobj": {
+                      "pattern": "",
+                      "message": ""
+                    },
+                    "name": "account"
+                  },
+                  "hidden": false,
+                  "title": "",
+                  "isLocked": false,
+                  "condition": true,
+                  "conditionGroup": "",
+                  "children": [
+                    {
+                      "componentName": "Input",
+                      "id": "node_oclexysjwhs",
+                      "props": {
+                        "placeholder": "请输入",
+                        "bordered": true,
+                        "disabled": {
+                          "type": "JSExpression",
+                          "value": "this.getStatus()",
+                          "mock": false
+                        },
+                        "defaultValue": {
+                          "type": "JSExpression",
+                          "value": "this.state.selectedItem.account"
+                        },
+                        "__events": {
+                          "eventDataList": [],
+                          "eventList": [
+                            {
+                              "name": "onChange",
+                              "template": "onChange(event,${extParams}){\n// 输入框内容变化时的回调\nconsole.log('onChange',event);}",
+                              "disabled": true
+                            },
+                            {
+                              "name": "onPressEnter",
+                              "template": "onPressEnter(event,${extParams}){\n// 按下回车的回调\nconsole.log('onPressEnter',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onFocus",
+                              "template": "onFocus(event,${extParams}){\n// 获取焦点回调\nconsole.log('onFocus',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onKeyDown",
+                              "template": "onKeyDown(event,${extParams}){\n// 按键按下时的回调\nconsole.log('onKeyDown',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onKeyPress",
+                              "template": "onKeyPress(event,${extParams}){\n// 按键按下后的回调\nconsole.log('onKeyPress',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onKeyUp",
+                              "template": "onKeyUp(event,${extParams}){\n// 按键释放回调\nconsole.log('onKeyUp',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onBlur",
+                              "template": "onBlur(event,${extParams}){\n// 按键释放回调\nconsole.log('onBlur',event);}",
+                              "disabled": false
+                            }
+                          ]
+                        }
+                      },
+                      "hidden": false,
+                      "title": "",
+                      "isLocked": false,
+                      "condition": true,
+                      "conditionGroup": ""
+                    }
+                  ]
+                },
+                {
+                  "componentName": "Form.Item",
+                  "id": "node_oclexysjwh14",
+                  "props": {
+                    "label": "密码",
+                    "labelAlign": "right",
+                    "colon": true,
+                    "required": true,
+                    "noStyle": false,
+                    "valuePropName": "value",
+                    "requiredobj": {
+                      "required": "",
+                      "message": ""
+                    },
+                    "typeobj": {
+                      "type": "",
+                      "message": ""
+                    },
+                    "lenobj": {
+                      "max": "",
+                      "min": "",
+                      "message": ""
+                    },
+                    "patternobj": {
+                      "pattern": "",
+                      "message": ""
+                    },
+                    "name": "password"
+                  },
+                  "hidden": false,
+                  "title": "",
+                  "isLocked": false,
+                  "condition": true,
+                  "conditionGroup": "",
+                  "children": [
+                    {
+                      "componentName": "Input",
+                      "id": "node_oclexysjwh15",
+                      "props": {
+                        "placeholder": "请输入",
+                        "bordered": true,
+                        "disabled": {
+                          "type": "JSExpression",
+                          "value": "this.getStatus()",
+                          "mock": false
+                        },
+                        "defaultValue": {
+                          "type": "JSExpression",
+                          "value": "this.state.selectedItem.password"
+                        },
+                        "__events": {
+                          "eventDataList": [],
+                          "eventList": [
+                            {
+                              "name": "onChange",
+                              "template": "onChange(event,${extParams}){\n// 输入框内容变化时的回调\nconsole.log('onChange',event);}",
+                              "disabled": true
+                            },
+                            {
+                              "name": "onPressEnter",
+                              "template": "onPressEnter(event,${extParams}){\n// 按下回车的回调\nconsole.log('onPressEnter',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onFocus",
+                              "template": "onFocus(event,${extParams}){\n// 获取焦点回调\nconsole.log('onFocus',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onKeyDown",
+                              "template": "onKeyDown(event,${extParams}){\n// 按键按下时的回调\nconsole.log('onKeyDown',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onKeyPress",
+                              "template": "onKeyPress(event,${extParams}){\n// 按键按下后的回调\nconsole.log('onKeyPress',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onKeyUp",
+                              "template": "onKeyUp(event,${extParams}){\n// 按键释放回调\nconsole.log('onKeyUp',event);}",
+                              "disabled": false
+                            },
+                            {
+                              "name": "onBlur",
+                              "template": "onBlur(event,${extParams}){\n// 按键释放回调\nconsole.log('onBlur',event);}",
+                              "disabled": false
+                            }
+                          ]
+                        }
+                      },
+                      "hidden": false,
+                      "title": "",
+                      "isLocked": false,
+                      "condition": true,
+                      "conditionGroup": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "componentName": "Row",
+          "id": "node_oclexur9hk1s",
+          "props": {
+            "align": "top",
+            "justify": "start",
+            "wrap": false,
+            "style": {
+              "height": "5%"
+            },
+            "ref": "row-7d84bfe2"
+          },
+          "hidden": false,
+          "title": "",
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": ""
+        },
+        {
+          "componentName": "Row",
+          "id": "node_oclexur95o4",
+          "props": {
+            "align": "top",
+            "justify": "start",
+            "wrap": false,
+            "style": {
+              "display": "flex",
+              "alignItems": "center",
+              "marginTop": "20px"
+            },
+            "ref": "row-020b55d4"
+          },
+          "hidden": false,
+          "title": "",
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": "",
+          "children": [
+            {
+              "componentName": "Col",
+              "id": "node_oclexur95o5",
+              "props": {
+                "span": 12,
+                "order": 0,
+                "style": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "alignItems": "center",
+                  "paddingLeft": "20px"
+                }
+              },
+              "hidden": false,
+              "title": "",
+              "isLocked": false,
+              "condition": true,
+              "conditionGroup": "",
+              "children": [
+                {
+                  "componentName": "Typography.Text",
+                  "id": "node_oclexur9hk1",
+                  "props": {
+                    "children": {
+                      "type": "JSExpression",
+                      "value": "`账号数 ${this.state.list.length}/10`",
+                      "mock": "账号"
+                    },
+                    "code": false,
+                    "delete": false,
+                    "disabled": false,
+                    "mark": false,
+                    "keyboard": false,
+                    "underline": false,
+                    "strong": false,
+                    "ref": "typography.text-ca7fa20c",
+                    "style": {
+                      "marginRight": "10px",
+                      "color": "#000000"
+                    }
+                  },
+                  "hidden": false,
+                  "title": "",
+                  "isLocked": false,
+                  "condition": true,
+                  "conditionGroup": ""
+                },
+                {
+                  "componentName": "Progress",
+                  "id": "node_oclexur9hk1c",
+                  "props": {
+                    "percent": {
+                      "type": "JSExpression",
+                      "value": "this.state.list.length / 10 * 100",
+                      "mock": 20
+                    },
+                    "type": "line",
+                    "showInfo": false,
+                    "status": "success",
+                    "strokeWidth": 0,
+                    "steps": 0,
+                    "gapDegree": 0,
+                    "gapPosition": "top",
+                    "style": {
+                      "width": "250px",
+                      "marginRight": "10px"
+                    },
+                    "ref": "progress-1dc17be7"
+                  },
+                  "hidden": false,
+                  "title": "",
+                  "isLocked": false,
+                  "condition": true,
+                  "conditionGroup": ""
+                },
+                {
+                  "componentName": "Tooltip",
+                  "id": "node_oclexur9hk1n",
+                  "props": {
+                    "title": "账号升级请联系管理员",
+                    "defaultVisible": false,
+                    "autoAdjustOverflow": true,
+                    "arrowPointAtCenter": false
+                  },
+                  "hidden": false,
+                  "title": "",
+                  "isLocked": false,
+                  "condition": true,
+                  "conditionGroup": "",
+                  "children": [
+                    {
+                      "componentName": "Typography.Text",
+                      "id": "node_oclexur9hk1o",
+                      "props": {
+                        "children": "升级",
+                        "code": false,
+                        "delete": false,
+                        "disabled": false,
+                        "mark": false,
+                        "keyboard": false,
+                        "underline": false,
+                        "strong": false,
+                        "style": {
+                          "color": "#4a90e2"
+                        }
+                      },
+                      "hidden": false,
+                      "title": "",
+                      "isLocked": false,
+                      "condition": true,
+                      "conditionGroup": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "componentName": "Col",
+              "id": "node_oclexur95o6",
+              "props": {
+                "span": 12,
+                "order": 0,
+                "style": {
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                  "alignItems": "center",
+                  "paddingRight": "20px"
+                },
+                "ref": "col-92245d3d"
+              },
+              "hidden": false,
+              "title": "",
+              "isLocked": false,
+              "condition": true,
+              "conditionGroup": "",
+              "children": [
+                {
+                  "componentName": "Button",
+                  "id": "node_oclexur9hk1p",
+                  "props": {
+                    "type": "primary",
+                    "children": "新建",
+                    "htmlType": "button",
+                    "size": "middle",
+                    "shape": "default",
+                    "icon": "",
+                    "block": false,
+                    "danger": false,
+                    "ghost": false,
+                    "disabled": false,
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "borderRadius": "10px"
+                    },
+                    "__events": {
+                      "eventDataList": [
+                        {
+                          "type": "componentEvent",
+                          "name": "onClick",
+                          "relatedEventName": "onClick_new"
+                        }
+                      ],
+                      "eventList": [
+                        {
+                          "name": "onClick",
+                          "template": "onClick(event,${extParams}){\n// 点击按钮时的回调\nconsole.log('onClick', event);}",
+                          "disabled": true
+                        }
+                      ]
+                    },
+                    "onClick": {
+                      "type": "JSFunction",
+                      "value": "function(){return this.onClick_new.apply(this,Array.prototype.slice.call(arguments).concat([])) }"
+                    }
+                  },
+                  "hidden": false,
+                  "title": "",
+                  "isLocked": false,
+                  "condition": true,
+                  "conditionGroup": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "componentName": "Row",
+          "id": "node_oclexxapke2",
+          "props": {
+            "align": "top",
+            "justify": "start",
+            "wrap": false,
+            "style": {
+              "padding": "0 12px",
+              "flexWrap": "wrap",
+              "marginTop": "30px"
+            }
+          },
+          "hidden": false,
+          "title": "",
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": "",
+          "children": [
+            {
+              "componentName": "Col",
+              "id": "node_oclexxapke3",
+              "props": {
+                "span": 8,
+                "order": 0,
+                "style": {
+                  "paddingLeft": "15px",
+                  "paddingRight": "15px",
+                  "width": "33.33%",
+                  "marginBottom": "20px"
+                },
+                "ref": "col-4d91f45f",
+                "_unsafe_MixedSetter____loop____select": "VariableSetter"
+              },
+              "hidden": false,
+              "title": "",
+              "isLocked": false,
+              "condition": true,
+              "conditionGroup": "",
+              "loop": {
+                "type": "JSExpression",
+                "value": "this.state.list"
+              },
+              "children": [
+                {
+                  "componentName": "Row",
+                  "id": "node_oclexxapke6",
+                  "props": {
+                    "align": "top",
+                    "justify": "start",
+                    "wrap": false,
+                    "style": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "width": "100%",
+                      "padding": "22px",
+                      "border": "1px solid #000",
+                      "borderRadius": "15px"
+                    }
+                  },
+                  "hidden": false,
+                  "title": "",
+                  "isLocked": false,
+                  "condition": true,
+                  "conditionGroup": "",
+                  "children": [
+                    {
+                      "componentName": "Col",
+                      "id": "node_oclexxapke7",
+                      "props": {
+                        "span": 24,
+                        "order": 0,
+                        "style": {
+                          "width": "100%",
+                          "marginBottom": "20xpx"
+                        }
+                      },
+                      "hidden": false,
+                      "title": "",
+                      "isLocked": false,
+                      "condition": true,
+                      "conditionGroup": "",
+                      "children": [
+                        {
+                          "componentName": "Row",
+                          "id": "node_oclexxapke9",
+                          "props": {
+                            "align": "top",
+                            "justify": "start",
+                            "wrap": false,
+                            "style": {
+                              "marginBottom": "20px",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "ref": "row-7d24f791"
+                          },
+                          "hidden": false,
+                          "title": "",
+                          "isLocked": false,
+                          "condition": true,
+                          "conditionGroup": "",
+                          "children": [
+                            {
+                              "componentName": "Col",
+                              "id": "node_oclexxapkea",
+                              "props": {
+                                "span": 12,
+                                "order": 0,
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "ref": "col-ca5f9ad3"
+                              },
+                              "hidden": false,
+                              "title": "",
+                              "isLocked": false,
+                              "condition": true,
+                              "conditionGroup": "",
+                              "children": [
+                                {
+                                  "componentName": "Typography.Text",
+                                  "id": "node_oclexxapkev",
+                                  "props": {
+                                    "children": {
+                                      "type": "JSExpression",
+                                      "value": "this.item.name",
+                                      "mock": "text"
+                                    },
+                                    "code": false,
+                                    "delete": false,
+                                    "disabled": false,
+                                    "mark": false,
+                                    "keyboard": false,
+                                    "underline": false,
+                                    "strong": false,
+                                    "style": {
+                                      "fontSize": "24px",
+                                      "fontWeight": 700,
+                                      "color": "#000000"
+                                    },
+                                    "ref": "typography.text-c8351d58"
+                                  },
+                                  "hidden": false,
+                                  "title": "",
+                                  "isLocked": false,
+                                  "condition": true,
+                                  "conditionGroup": ""
+                                }
+                              ]
+                            },
+                            {
+                              "componentName": "Col",
+                              "id": "node_oclexxapkeb",
+                              "props": {
+                                "span": 12,
+                                "order": 0,
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "ref": "col-35fe9708"
+                              },
+                              "hidden": false,
+                              "title": "",
+                              "isLocked": false,
+                              "condition": true,
+                              "conditionGroup": "",
+                              "children": [
+                                {
+                                  "componentName": "Image",
+                                  "id": "node_oclez4giv819",
+                                  "props": {
+                                    "src": {
+                                      "type": "JSExpression",
+                                      "value": "this.state.platformImg[this.item.type]",
+                                      "mock": ""
+                                    },
+                                    "width": 120,
+                                    "alt": "",
+                                    "preview": false,
+                                    "fallback": "",
+                                    "height": 40
+                                  },
+                                  "hidden": false,
+                                  "title": "",
+                                  "isLocked": false,
+                                  "condition": true,
+                                  "conditionGroup": ""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "componentName": "Col",
+                      "id": "node_oclexxapke8",
+                      "props": {
+                        "span": 24,
+                        "order": 0,
+                        "style": {
+                          "width": "100%"
+                        }
+                      },
+                      "hidden": false,
+                      "title": "",
+                      "isLocked": false,
+                      "condition": true,
+                      "conditionGroup": "",
+                      "children": [
+                        {
+                          "componentName": "Row",
+                          "id": "node_oclexxapkec",
+                          "props": {
+                            "align": "top",
+                            "justify": "start",
+                            "wrap": false,
+                            "style": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            }
+                          },
+                          "hidden": false,
+                          "title": "",
+                          "isLocked": false,
+                          "condition": true,
+                          "conditionGroup": "",
+                          "children": [
+                            {
+                              "componentName": "Col",
+                              "id": "node_oclexxapked",
+                              "props": {
+                                "span": 12,
+                                "order": 0,
+                                "style": {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                }
+                              },
+                              "hidden": false,
+                              "title": "",
+                              "isLocked": false,
+                              "condition": true,
+                              "conditionGroup": "",
+                              "children": [
+                                {
+                                  "componentName": "Typography.Text",
+                                  "id": "node_oclexxapkew",
+                                  "props": {
+                                    "children": {
+                                      "type": "JSExpression",
+                                      "value": "'创建时间：' + this.item.createTime",
+                                      "mock": "text"
+                                    },
+                                    "code": false,
+                                    "delete": false,
+                                    "disabled": false,
+                                    "mark": false,
+                                    "keyboard": false,
+                                    "underline": false,
+                                    "strong": false,
+                                    "style": {
+                                      "fontSize": "13px",
+                                      "color": "#000000"
+                                    }
+                                  },
+                                  "hidden": false,
+                                  "title": "",
+                                  "isLocked": false,
+                                  "condition": true,
+                                  "conditionGroup": ""
+                                }
+                              ]
+                            },
+                            {
+                              "componentName": "Col",
+                              "id": "node_oclexxapkee",
+                              "props": {
+                                "span": 12,
+                                "order": 0,
+                                "style": {
+                                  "display": "inline",
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-around",
+                                  "alignItems": "center"
+                                }
+                              },
+                              "hidden": false,
+                              "title": "",
+                              "isLocked": false,
+                              "condition": true,
+                              "conditionGroup": "",
+                              "children": [
+                                {
+                                  "componentName": "Row",
+                                  "id": "node_oclexxapkex",
+                                  "props": {
+                                    "align": "top",
+                                    "justify": "start",
+                                    "wrap": false,
+                                    "style": {
+                                      "display": "flex"
+                                    }
+                                  },
+                                  "hidden": false,
+                                  "title": "",
+                                  "isLocked": false,
+                                  "condition": true,
+                                  "conditionGroup": "",
+                                  "children": [
+                                    {
+                                      "componentName": "Col",
+                                      "id": "node_oclexxapkey",
+                                      "props": {
+                                        "span": 8,
+                                        "order": 0,
+                                        "style": {
+                                          "display": "flex",
+                                          "flexDirection": "row",
+                                          "justifyContent": "center",
+                                          "alignItems": "center"
+                                        }
+                                      },
+                                      "hidden": false,
+                                      "title": "",
+                                      "isLocked": false,
+                                      "condition": true,
+                                      "conditionGroup": "",
+                                      "children": [
+                                        {
+                                          "componentName": "Icon",
+                                          "id": "node_oclexxapke16",
+                                          "props": {
+                                            "type": "EyeOutlined",
+                                            "size": 20,
+                                            "rotate": 0,
+                                            "spin": false,
+                                            "__events": {
+                                              "eventDataList": [
+                                                {
+                                                  "type": "componentEvent",
+                                                  "name": "onClick",
+                                                  "relatedEventName": "onClick_particulars"
+                                                }
+                                              ],
+                                              "eventList": [
+                                                {
+                                                  "name": "onClick",
+                                                  "disabled": true
+                                                }
+                                              ]
+                                            },
+                                            "onClick": {
+                                              "type": "JSFunction",
+                                              "value": "function(){return this.onClick_particulars.apply(this,Array.prototype.slice.call(arguments).concat([])) }"
+                                            }
+                                          },
+                                          "hidden": false,
+                                          "title": "",
+                                          "isLocked": false,
+                                          "condition": true,
+                                          "conditionGroup": ""
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "componentName": "Col",
+                                      "id": "node_oclexxapkez",
+                                      "props": {
+                                        "span": 8,
+                                        "order": 0,
+                                        "style": {
+                                          "display": "flex",
+                                          "flexDirection": "row",
+                                          "justifyContent": "center",
+                                          "alignItems": "center"
+                                        },
+                                        "ref": "col-f1b364bf"
+                                      },
+                                      "hidden": false,
+                                      "title": "",
+                                      "isLocked": false,
+                                      "condition": true,
+                                      "conditionGroup": "",
+                                      "children": [
+                                        {
+                                          "componentName": "Icon",
+                                          "id": "node_oclexxapke19",
+                                          "props": {
+                                            "type": "EditOutlined",
+                                            "size": 20,
+                                            "rotate": 0,
+                                            "spin": false,
+                                            "ref": "icon-37143676",
+                                            "__events": {
+                                              "eventDataList": [
+                                                {
+                                                  "type": "componentEvent",
+                                                  "name": "onClick",
+                                                  "relatedEventName": "onClick_edit"
+                                                }
+                                              ],
+                                              "eventList": [
+                                                {
+                                                  "name": "onClick",
+                                                  "disabled": true
+                                                }
+                                              ]
+                                            },
+                                            "onClick": {
+                                              "type": "JSFunction",
+                                              "value": "function(){return this.onClick_edit.apply(this,Array.prototype.slice.call(arguments).concat([])) }"
+                                            }
+                                          },
+                                          "hidden": false,
+                                          "title": "",
+                                          "isLocked": false,
+                                          "condition": true,
+                                          "conditionGroup": ""
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "componentName": "Col",
+                                      "id": "node_oclexxapke10",
+                                      "props": {
+                                        "span": 8,
+                                        "order": 0,
+                                        "style": {
+                                          "display": "flex",
+                                          "flexDirection": "row",
+                                          "justifyContent": "center",
+                                          "alignItems": "center"
+                                        }
+                                      },
+                                      "hidden": false,
+                                      "title": "",
+                                      "isLocked": false,
+                                      "condition": true,
+                                      "conditionGroup": "",
+                                      "children": [
+                                        {
+                                          "componentName": "Icon",
+                                          "id": "node_oclexxapke1g",
+                                          "props": {
+                                            "type": "DeleteOutlined",
+                                            "size": 20,
+                                            "rotate": 0,
+                                            "spin": false,
+                                            "__events": {
+                                              "eventDataList": [
+                                                {
+                                                  "type": "componentEvent",
+                                                  "name": "onClick",
+                                                  "relatedEventName": "onClick_delete"
+                                                }
+                                              ],
+                                              "eventList": [
+                                                {
+                                                  "name": "onClick",
+                                                  "disabled": true
+                                                }
+                                              ]
+                                            },
+                                            "ref": "icon-0f3c0635",
+                                            "onClick": {
+                                              "type": "JSFunction",
+                                              "value": "function(){return this.onClick_delete.apply(this,Array.prototype.slice.call(arguments).concat([])) }"
+                                            }
+                                          },
+                                          "hidden": false,
+                                          "title": "",
+                                          "isLocked": false,
+                                          "condition": true,
+                                          "conditionGroup": ""
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "componentName": "Modal",
+          "id": "node_oclexysjwh16",
+          "props": {
+            "title": "删除",
+            "okText": "确认",
+            "cancelText": "取消",
+            "visible": {
+              "type": "JSExpression",
+              "value": "this.state.delete_visible",
+              "mock": false
+            },
+            "destroyOnClose": true,
+            "centered": false,
+            "closable": true,
+            "confirmLoading": false,
+            "forceRender": false,
+            "keyboard": true,
+            "mask": true,
+            "maskClosable": true,
+            "bodyStyle": {},
+            "maskStyle": {},
+            "__events": {
+              "eventDataList": [
+                {
+                  "type": "componentEvent",
+                  "name": "onCancel",
+                  "relatedEventName": "onCancel_delete"
+                }
+              ],
+              "eventList": [
+                {
+                  "name": "afterClose",
+                  "templete": "onCancel(${extParams}){\n// 完全关闭后的回调\nconsole.log('afterClose');}",
+                  "disabled": false
+                },
+                {
+                  "name": "onCancel",
+                  "template": "onCancel(${extParams}){\n// 点击遮罩层或右上角叉或取消按钮的回调\nconsole.log('onCancel');}",
+                  "disabled": true
+                },
+                {
+                  "name": "onOk",
+                  "template": "onOk(${extParams}){\n// 点击确定回调\nconsole.log('onOk');}",
+                  "disabled": false
+                }
+              ]
+            },
+            "onCancel": {
+              "type": "JSFunction",
+              "value": "function(){return this.onCancel_delete.apply(this,Array.prototype.slice.call(arguments).concat([])) }"
+            }
+          },
+          "hidden": true,
+          "title": "",
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": "",
+          "children": [
+            {
+              "componentName": "Typography.Text",
+              "id": "node_oclexysjwh17",
+              "props": {
+                "children": "是否确认删除",
+                "code": false,
+                "delete": false,
+                "disabled": false,
+                "mark": false,
+                "keyboard": false,
+                "underline": false,
+                "strong": false,
+                "style": {
+                  "fontSize": "20px",
+                  "fontWeight": 700
+                }
+              },
+              "hidden": false,
+              "title": "",
+              "isLocked": false,
+              "condition": true,
+              "conditionGroup": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "i18n": {}
+}
